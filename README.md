@@ -1,11 +1,11 @@
 # GameStore Project
 
 ## About project
-This project is an exempe of creating environment for deploying of GameStore web application. 
+This project is an example of creating environment for deploying of GameStore web application. 
 GameStore is an ASP.NET Web Forms application for accessing a game catalog. The functionality of the GameStore is restricted by following operations: browse the catalog, create, edit and delete entries in the catalog placed in the MS SQL DB.
 
 ## Goals 
-Automate the process of creating deploymen environment (as idempotent operation) with following tools: Windows 2016 server, SQL EXPRESS server, IIS server.
+Automate the process of creating deployment environment (as idempotent operation) with following tools: Windows 2016 server, SQL Server 2017 Express, IIS Web-Server.
 This infrastructure should provide verification of the functionality and build process of the web application (Store).
 
 ## Tools
