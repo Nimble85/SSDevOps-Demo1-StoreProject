@@ -13,8 +13,8 @@ This infrastructure should provide verification of the functionality and build p
 * VirtualBox ver 6.0.4
 
 ## Repository Structure  
-* StoreProject - sources code of web-application and its build
-* Vagrant - scripts for creation environment using Vagrant + VirtualBox and deployment on the virtual machine (VM) 
+* StoreProject - sources code of web-application and its build.
+* Vagrant - scripts for creation environment using Vagrant + VirtualBox and deployment on the virtual machine (VM).
 
 ## Runbook
 1. Download and unzip project's code and scripts from [GitHub repo](https://github.com/shamalets/SSDevOps-Demo1-StoreProject)
@@ -31,5 +31,5 @@ Deployment view diagram.
 
 As base image for deployment environment was taken vagrant box [gusztavvargadr/w16s](https://app.vagrantup.com/gusztavvargadr/boxes/w16s) with pre-installed SSH, WinRM and Chocolatey ver 0.10.11. User - vagrant, Password - vagrant.
 
-Vagrant is configured to deploy VMs with the following services: MS SQL Express server ver 14.1801.3958.1, IIS server v10.0. 
+Vagrant is configured to deploy VMs with the following services: MS SQL Server 2017 Express server, IIS server v10.0. 
 The Git ver 2.20.1 is installed for delivery project's build and SQL script for DB from GitHub repository.
