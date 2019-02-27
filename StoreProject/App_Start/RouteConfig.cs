@@ -18,6 +18,7 @@ namespace StoreProject
             routes.MapPageRoute("cart", "cart", "~/Pages/CartView.aspx");
             routes.MapPageRoute("checkout", "checkout", "~/Pages/Checkout.aspx");
 
+            routes.MapPageRoute("admin", "admin", "~/Pages/Admin/Admin.aspx");
             routes.MapPageRoute("admin_orders", "admin/orders", "~/Pages/Admin/Orders.aspx");
             routes.MapPageRoute("admin_games", "admin/games", "~/Pages/Admin/Games.aspx");
         }
